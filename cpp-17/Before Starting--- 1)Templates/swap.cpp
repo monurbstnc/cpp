@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-template <typename T> T swap(T& a, T& b);
+template <typename T> void swap(T& a, T& b);
 
 int main()
 {
@@ -14,7 +14,7 @@ int main()
     return 0;
 }
 
-template <typename T> T swap(T& a, T& b)
+template <typename T> void swap(T& a, T& b)
 {
     T temp = a;
     a = b;
