@@ -1,4 +1,3 @@
-#pragma once
 
 #include <cstring>
 #include <iostream> 
@@ -16,4 +15,4 @@ template <typename T> int hunt_down(const T value, const T* collection, unsigned
 };
 
 
-int hunt_down (const char* value, const char** collection, unsigned int size);
+int hunt_down(const char* value, const char** collection, unsigned int size);

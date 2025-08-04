@@ -9,6 +9,7 @@
                 "-std=c++17",
                 "-g",
                 "${file}",
+                "lib/*",
                 "-o",
                 "${fileDirname}/output/${fileBasenameNoExtension}"
             ],
